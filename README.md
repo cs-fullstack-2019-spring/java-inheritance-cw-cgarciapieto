@@ -1,41 +1,56 @@
 # java-inheritance-cw
 
 #### Exercise 1: 
+Create the class Person with the following attributes:
+- name
+
+The following three classes should inherent Person:
+- Friend
+- Teacher
+- Doctor
+
+Friend should return the string "What's up", Teacher should return "Hello Mr/Mrs", and Doctor should return "Good morning/Afternoon Dr".
+
 Create an ArrayList of People with new Friends, Teaches, and Doctors. Say hi to all of them.
 
-Speak to friend, teacher, doctor
-- What's up
-- Hello Mr/Mrs
-- Yes Dr
-
 #### Exercise 2:
-* All floors are the same size.
+<strong>Note: All floors are the same size in this exercise.</strong>
 
-Building
+Create the class Building with the following attributes
 - name
 - squareFeetPerFloor
 
-Each Resturant, Resident, Commercial.
+The follwing three classes should inherent Building: Resturant, Resident, Commercial with the following attributes
 - howManyFloors
 - hasParkingLot
 - hasInspection
 - taxRate
 - toString
 
-Restaurant has 1 floor, parkingLot, inspections, and 10% tax.
-Resident has 2 floors, no ParkingLog, no inspection, and 7% tax rate.
-Commerical has 4 floors, parkingLot, inspections, 15% tax rate. 
+Each Restaurant has 1 floor, parkingLot, inspections, and 10% tax.
+Each Resident has 2 floors, no ParkingLog, no inspection, and 7% tax rate.
+Each Commerical has 4 floors, parkingLot, inspections, and 15% tax rate. 
 
-Array is realEstateAgentHouses
+Create an ArrayList variable of type Buildings for a real estate agent. The ArrayList should at least one of each types of inhereted Building class. Print the following answers for the agent:
 - How many buildings does the realestate agent own?
 - Print information on each building
 - Print the total square feet of each building.
 
-
 #### Exercise 3: 
-Appliance
-- Create three different classes that will inherent Appliance that will treat these three methods differently.
-1) turnOn. Print something
-2) insertItem should retain an array and do something different to the array
-3) removeItem should print something and effect the array.
-4) seeItems should print the array.
+Create the class Appliance with the following attribute
+- name
+
+Think of three new classes inheriting Appliance and give them the following methods/functions:
+- turnOn. Print something
+- insertItem should retain an array and do something different to the array
+- removeItem should print something and effect the array.
+- seeItems should print the array.
+
+It's up to you how the methods will work, but it should follow the example below.
+
+##### Example:
+class Router
+- turnOn: prints "WiFi is now on"
+- insertItem: google.com is sent to insertItem. It now has the array ["http://www.google.com"].
+- seeItems: prints ["http://www.google.com"].
+- removeItem: "http://www.google.com" is sent to removeItem. It now has the array [].
