@@ -13,6 +13,7 @@ Friend should return the string "What's up", Teacher should return "Hello Mr/Mrs
 
 Create an ArrayList of People with new Friends, Teaches, and Doctors. Say hi to all of them.
 
+<hr>
 #### Exercise 2:
 <strong>Note: All floors are the same size in this exercise.</strong>
 
@@ -36,6 +37,7 @@ Create an ArrayList variable of type Buildings for a real estate agent. The Arra
 - Print information on each building
 - Print the total square feet of each building.
 
+<hr>
 #### Exercise 3: 
 Create the class Appliance with the following attribute
 - name
