@@ -12,3 +12,9 @@ Memphis (City)
 Midtown (38104)
 
 
+Appliance
+Create three different classes that will inherent Appliance that will treat these three methods differently.
+turnOn. Print something
+insertItem should retain an array and do something different to the array
+removeItem should print something and effect the array.
+seeItems should print the array.
