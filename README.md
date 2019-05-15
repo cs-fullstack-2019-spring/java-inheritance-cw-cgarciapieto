@@ -39,6 +39,7 @@ Create an ArrayList variable of type Buildings for a real estate agent. The Arra
 - Print the total square feet of each building.
 
 <hr>
+
 #### Exercise 3: 
 Create the class Appliance with the following attribute
 - name
