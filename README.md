@@ -14,6 +14,7 @@ Friend should return the string "What's up", Teacher should return "Hello Mr/Mrs
 Create an ArrayList of People with new Friends, Teaches, and Doctors. Say hi to all of them.
 
 <hr>
+
 #### Exercise 2:
 <strong>Note: All floors are the same size in this exercise.</strong>
 
